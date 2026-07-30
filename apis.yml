@@ -1,8 +1,25 @@
 aid: mealpal
 name: MealPal
-description: 'MealPal is a company surfaced as a portfolio company of bessemer-venture-partners, menlo-ventures
-  and added to the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is
-  a lead awaiting the enrichment pipeline.'
+description: 'MealPal is a consumer meal subscription service that lets members reserve lunch or dinner
+  from a rotating selection of local restaurants at a discounted, fixed membership price, ordering ahead
+  through its iOS and Android apps to skip the line at pickup. The service is organized around its MealPass
+  lunch/dinner subscription and MealFix offering, alongside a partner program that restaurants join to
+  reach members. MealPal operates as a business-to-consumer mobile application and website and does not
+  publish a public developer API, developer portal, or API documentation. This record was surfaced as a
+  portfolio company of Bessemer Venture Partners and Menlo Ventures and is tracked in the API Evangelist
+  network.'
+accessModel:
+  pricing: unknown
+  onboarding: approval
+  trial: false
+  try_now: false
+  public: false
+  label: Requires approval
+  confidence: medium
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.mealpal.com/icons/icon-512x512.png
 url: https://raw.githubusercontent.com/api-evangelist/mealpal/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,10 +30,14 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Consumer
+- Food
+- Meal Subscription
+- Restaurants
+- Mobile App
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,5 +45,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/mealpal-domain-security.yml
 - type: Website
   url: https://mealpal.com/
+- type: TermsOfService
+  url: https://www.mealpal.com/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://www.mealpal.com/privacy-policy
+- type: Support
+  url: https://www.mealpal.com/faq
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
