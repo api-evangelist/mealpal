@@ -36,6 +36,13 @@ tags:
 - Consumer
 - Food
 - Meal Subscription
+- Restaurant
+- Mobile App
+tags_raw:
+- Company
+- Consumer
+- Food
+- Meal Subscription
 - Restaurants
 - Mobile App
 apis: []
