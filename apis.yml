@@ -8,6 +8,17 @@ description: 'MealPal is a consumer meal subscription service that lets members 
   publish a public developer API, developer portal, or API documentation. This record was surfaced as a
   portfolio company of Bessemer Venture Partners and Menlo Ventures and is tracked in the API Evangelist
   network.'
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: approval
